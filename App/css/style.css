@@ -1,0 +1,19 @@
+.container {
+    max-width: 1280px; 
+    margin: 0 auto
+   
+}
+.container > .blog {
+    max-width: 475px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+.blog .blog__items {
+    width: 150px;
+    height: 150px;
+    background: #10981C;
+    margin: 10px;
+    float: left;
+   
+} 
